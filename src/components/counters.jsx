@@ -44,7 +44,7 @@ class Counters extends Component {
     render() { 
         return ( 
             <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/NUYvbT6vTPs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe title="myIframe" width="560" height="315" src="https://www.youtube.com/embed/NUYvbT6vTPs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <br></br>
                 <button className="btn-primary btn-sm m-2"onClick={this.handleReset}
 >
