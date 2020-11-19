@@ -1,0 +1,10 @@
+body {
+    background-color: #c0dbee;
+    color: rgb(49, 47, 47);
+    font-family: Helvetica;
+    padding-top: 40px;
+  }
+
+  .card{
+    width: 13rem;
+  }

@@ -10,6 +10,7 @@ class App extends Component {
         return (  
             <React.Fragment>
                 <NavBar  totalCounters={this.state.itemsCount}/>
+                <br></br>
                 <main className="container">
                     <Counters upNode={this.onUpNode} />
                 </main>

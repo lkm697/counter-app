@@ -50,17 +50,19 @@ class Counters extends Component {
 >
                     Reset
                 </button>
-                {
-                    this.state.counters.map( mcounter =>(<Counter 
-                        key={mcounter.id} 
-                        onDelete={this.handleDelete} 
-                        onIncrement={this.onIncrement}
-                        counter={mcounter}
-                        selected={true}>
-                            <h4>Counter # {mcounter.id}</h4>
-                            </Counter>
-                        ))    
-                }   
+                <div class="card-deck">
+                    {
+                        this.state.counters.map( mcounter =>(<Counter 
+                            key={mcounter.id} 
+                            onDelete={this.handleDelete} 
+                            onIncrement={this.onIncrement}
+                            counter={mcounter}
+                            selected={true}>
+                                
+                                </Counter>
+                            ))    
+                    }      
+                </div>
             </div>
          );
     }
