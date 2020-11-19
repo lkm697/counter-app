@@ -20,7 +20,6 @@ class App extends Component {
     }
 
     onUpNode = (numberOfCounters) => {
-        console.log('upnode firing', numberOfCounters);
         this.setState({itemsCount:numberOfCounters}, console.log(this.state) );
     }
 }
